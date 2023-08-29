@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-        with:
-          sparse-checkout: .
 
       - name: Build 🔧
         run: |
