@@ -17,6 +17,7 @@ jobs:
 
       - name: Build 🔧
         run: |
+          ls -al
           npm install
           npm run build
           npm run export
