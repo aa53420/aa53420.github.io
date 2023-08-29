@@ -1,5 +1,5 @@
 name: deploy-blog
-run-name: ${{ github.actor }} is running out Github Actions
+run-name: ${{ github.actor }} is running out deploy-blog
 
 on:
   push:
