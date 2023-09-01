@@ -11,7 +11,7 @@ export enum Category {
 /**
  * 게시물 루트 경로
  */
-export const rootPath = "src/app/post"
+export const rootPath = "/post"
 
 /**
  * 카테고리에 해당하는 게시물 목록을 리턴한다
@@ -19,6 +19,7 @@ export const rootPath = "src/app/post"
 type PostData = {
   title: string,
   subtitle: string | "",
+  data: string,
   thumbnail: string,
   tags: string[],
   path: string | "",
